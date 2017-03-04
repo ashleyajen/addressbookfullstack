@@ -34,7 +34,7 @@ class LandingPageController < ApplicationController
   def edit
     @contact = Contact.find(params[:id])
   end
-
+# this updates things
   def update
     @contact = Contact.find(params[:id])
     @contact.name = params[:name]
